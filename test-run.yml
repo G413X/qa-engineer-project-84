@@ -8,6 +8,10 @@
   status: pass
 
 - summary: |
+    Поиск по несуществующему названию
+  status: pass
+  
+- summary: |
     Фильтрация товаров по ценовому диапазону
   status: fail
 
