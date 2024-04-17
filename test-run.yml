@@ -41,15 +41,15 @@
 
 - summary: |
     Проверка кроссбраузерности: Yandex Browser
-  status: pass
+  status: fail
 
 - summary: |
     Проверка кроссбраузерности: Firefox
-  status: pass
+  status: fail
 
 - summary: |
     Проверка кроссбраузерности: Gnome Web
-  status: pass
+  status: fail
 
 - summary: |
     Проверка работы при низкой скорости соединения
