@@ -32,6 +32,14 @@
   status: pass
 
 - summary: |
+    Сброс категории при переключении страницы
+  status: fail 
+
+- summary: |
+    Переход на страницу товара
+  status: pass
+
+- summary: |
     Добавление в корзину из каталога
   status: pass
 
