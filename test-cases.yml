@@ -3,8 +3,10 @@
     Поиск товаров по категории
   requirement: |
     - Пользователь должен иметь возможность искать товары по ключевому слову или категории
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - В списке Category выбрать одну из доступных категорий
   expected-result: |
@@ -14,8 +16,10 @@
     Поиск товаров по ключевому слову
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - В поле Search вбить ключевое слово. Например, HP.
   expected-result: |
@@ -25,8 +29,10 @@
     Поиск по несуществующему названию
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Ввести любое слово. Например, Juice
   expected-result: |
@@ -36,8 +42,10 @@
     Фильтрация товаров по ценовому диапазону
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - В фильтре Price задать диапазон цен. Например, 20-30
   expected-result: |
@@ -47,8 +55,10 @@
     Фильтрация товаров по бренду
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - В разделе Brand выбрать любой бренд
   expected-result: |
@@ -59,8 +69,10 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и
     просматривать подробную информацию о товаре
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Снять чекбокс In Stock
   expected-result: |
@@ -71,8 +83,10 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и
     просматривать подробную информацию о товаре
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - нажать на кнопку Next вверху страницы
   expected-result: |
@@ -84,7 +98,8 @@
     Пользователь должен иметь возможность просматривать товары и
     просматривать подробную информацию о товаре
   prerequisites: открыта следующая страница каталога относительно начальной.
-  test-data: ""
+  test-data: |
+     no data
   steps:
     - нажать на кнопку Previous вверху страницы
   expected-result: |
@@ -95,8 +110,10 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и
     просматривать подробную информацию о товаре
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - выбрать категорию. Например, smartphones
     - перейти на следующую страницу по кнопке Next
@@ -108,8 +125,10 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и
     просматривать подробную информацию о товаре
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Кликнуть по карточке любого товара
   expected-result: |
@@ -119,8 +138,10 @@
     Добавление в корзину из каталога
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - На карточке любого товара нажать Add to cart
     - Перейти в корзину по кнопке Cart
@@ -131,8 +152,10 @@
     Добавление в корзину со страницы товара
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Перейти на страницу любого товара
     - Добавить товар в корзину по кнопке Add to cart
@@ -144,8 +167,10 @@
     Проверка мобильной версии
   requirement: |
     Сайт должен иметь мобильную версию
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Осмотреть экраны приложения
   expected-result: |
@@ -155,8 +180,10 @@
     Проверка кроссбраузерности: Yandex Browser
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Открыть сайт в последней версии Yandex Browser
     - Осмотреть экраны приложения
@@ -168,8 +195,10 @@
     Проверка кроссбраузерности: Firefox
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Открыть сайт в последней версии Firefox
     - Осмотреть экраны приложения
@@ -181,8 +210,10 @@
     Проверка кроссбраузерности: Gnome Web
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
-  prerequisites: ""
-  test-data: ""
+  prerequisites: |
+     no data
+  test-data: |
+     no data
   steps:
     - Открыть сайт в последней версии Gnome Web
     - Осмотреть экраны приложения
@@ -195,7 +226,8 @@
   requirement: |
     Сайт разработан с учетом удобства использования и оптимизирован для скорости работы
   prerequisites: Убедиться, что скорость соединения не ниже 30 Мбит/с для загрузки и 10 Мбит/с для отправки
-  test-data: ""
+  test-data: |
+     no data
   steps:
     - Открыть DevTools на вкладке Network 
     - Перезагрузить страницу по F5
