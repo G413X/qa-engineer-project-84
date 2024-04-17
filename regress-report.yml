@@ -86,7 +86,7 @@ bugreports:
     environment: |
       Яндекс Браузер 24.1.5.736 (64-bit)
       Windows 10 Version 21H2 (OS Build 19044.4291)
-    steps-to-reproduce:
+    steps-to-reproduce: |
      - Перейти на страницу любого доступного товара
      - Осмотреть миниатюры и главное изображение
     expected-result: |
@@ -99,7 +99,7 @@ bugreports:
     environment: |
       Яндекс Браузер 24.1.5.736 (64-bit)
       Windows 10 Version 21H2 (OS Build 19044.4291)
-    steps-to-reproduce:
+    steps-to-reproduce: |
      - Кликнуть по нижней половине карточки любого товара
     expected-result: |
       Переход на страницу товара
@@ -111,7 +111,7 @@ bugreports:
     environment: |
       Яндекс Браузер 24.1.5.736 (64-bit)
       Windows 10 Version 21H2 (OS Build 19044.4291)
-    steps-to-reproduce:
+    steps-to-reproduce: |
        - Выбрать бренд. Например, Infinix
     expected-result: |
       Отображается карточка товара infinix INBOOK с правильной версткой
@@ -123,7 +123,7 @@ bugreports:
     environment: |
       Яндекс Браузер 24.1.5.736 (64-bit)
       Windows 10 Version 21H2 (OS Build 19044.4291)
-    steps-to-reproduce:
+    steps-to-reproduce: |
        - Открыть список Language
     expected-result: |
       Напротив каждого языка отображается соответствующий флаг: британский и российский
@@ -135,7 +135,7 @@ bugreports:
     environment: |
       Яндекс Браузер 24.1.5.736 (64-bit)
       Windows 10 Version 21H2 (OS Build 19044.4291)
-    steps-to-reproduce:
+    steps-to-reproduce: |
       - Снять In Stock
       - Вбить в поиск iPhone
       - Выбрать категорию smartphones
@@ -151,7 +151,7 @@ bugreports:
     environment: |
       Яндекс Браузер 24.1.5.736 (64-bit)
       Windows 10 Version 21H2 (OS Build 19044.4291)
-    steps-to-reproduce:
+    steps-to-reproduce: |
      - Перейти на следующую страницу 
      - Снять In Stock
     expected-result: |
