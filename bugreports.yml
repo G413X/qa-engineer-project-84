@@ -4,7 +4,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
     - Снять чекбокс In Stock
   expected-result: |
     Отображаются все товары, включая товары не в наличии
@@ -16,7 +16,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
      - Открыть вкладку Network в DevTools
      - Перезагрузить страницу на F5
   expected-result: |
@@ -29,7 +29,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
      - Открыть выпадающее меню Language
   expected-result: |
     Напротив английского отображается британский флаг
@@ -41,7 +41,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
     - Осмотреть карточки товаров в каталоге
     - Перейти на страницы этих товаров и сравнить с изображениями там
   expected-result: |
@@ -54,7 +54,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
      - В фильтре Price установить диапазон цен 20-30
   expected-result: |
      Отображаются 2 товара: Eau De Perfume Spray, Key Holder
@@ -79,7 +79,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
     - Выбрать категорию: smartphones
     - Перейти на следующую страницу по кнопке Next
   expected-result: |
@@ -92,7 +92,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
     - Зайти на страницу любого товара
     - Прощелкать миниатюры
   expected-result: |
