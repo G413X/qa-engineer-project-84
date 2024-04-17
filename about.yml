@@ -1,16 +1,14 @@
 ---
-# Если хотите пояснить код, можно добавить комментарий с помощью символа #
-name: Ilona Maskova # Ваше имя
+name: Alexander Galashov
 job: QA Engineer
 level: junior
-email: ilona@hexlet.io
+email: galashov_95@bk.ru
 description: |
-  Этот текст — описание в свободной форме. Здесь можно рассказать пару интересных фактов про себя.
-
-  Текст можно написать в несколько абзацев
-skills: # Список навыков в виде списка, можете написать сюда что-то свое
-  - Функциональное тестирование
-  - Написание багрепортов
-  - Linux
-  - Слепая печать
-  - Английский язык C1
+  "I am looking forward to being a part of a software development team."
+skills:
+  - Basic knowledge of software testing theory 
+  - GIT
+  - Knowledge of basic Java
+  - Formal logic
+  - Touch typing (RU/EN)
+  - English B2
