@@ -116,7 +116,7 @@ bugreports:
     expected-result: |
       Отображается карточка товара infinix INBOOK с правильной версткой
     actual-result: |
-      Верстка карточки товара нарушена (см. BROKEN_LAYOUT.jpg)
+      Верстка карточки товара нарушена (см. Screenshots/BROKEN_LAYOUT.jpg)
   
   - summary: |
      В меню Language нет флагов языков
@@ -157,4 +157,4 @@ bugreports:
     expected-result: |
       Доступны кнопки Next/Previous 
     actual-result: |
-      Кнопка Next пропала со страницы (см. MISSING_BUTTON.jpg)
+      Кнопка Next пропала со страницы (см. Screenshots/MISSING_BUTTON.jpg)
