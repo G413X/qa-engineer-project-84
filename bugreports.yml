@@ -16,7 +16,7 @@
   environment: |
     Яндекс Браузер 24.1.5.736 (64-bit)
     Windows 10 Version 21H2 (OS Build 19044.4291)
-  steps-to-reproduce:
+  steps-to-reproduce: |
     - Добавить товар в корзину по кнопке Add to cart
     - Перейти в корзину по кнопке Cart
     - Открыть вкладку Network в DevTools
